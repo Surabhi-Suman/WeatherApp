@@ -1,0 +1,12 @@
+
+springdoc:
+  version: 3.0
+  swagger-ui:
+    path: /swagger-ui-custom.html
+
+
+weather:
+  api:
+    url: https://api.openweathermap.org/data/2.5/forecast?q=%s&appid=%s
+    key: ${WEATHER_API_KEY}
+
